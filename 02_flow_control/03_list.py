@@ -37,3 +37,11 @@ print(lista1[:]) # [1, 2, 3, 4, 5]
 lista1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(lista1[::2]) # [1, 3, 5, 7, 9] # Cada segundo elemento
 print(lista1[::-1]) # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1] # Invertir lista
+
+# Modificar listas
+lista1[0] = 100 # Cambiar el primer elemento
+print(lista1) # [100, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Agregar elementos a la lista
+lista1 += [11, 12, 13] # Agregar elementos al final de la lista
+print(lista1) # [100, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
